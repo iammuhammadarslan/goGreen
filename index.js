@@ -2,6 +2,9 @@ import jsonfile from "jsonfile";
 import moment from "moment";
 import simpleGit from "simple-git";
 import random from "random";
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 const path = "./data.json";
 
